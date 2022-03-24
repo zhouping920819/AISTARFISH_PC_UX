@@ -4,7 +4,7 @@
  * @Autor: baijue
  * @Date: 2022-03-21 17:06:19
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-03-23 20:34:44
+ * @LastEditTime: 2022-03-24 16:54:05
  */
 import { defineConfig } from 'dumi';
 const repo = 'AISTARFISH_PC_UX'
@@ -50,6 +50,7 @@ export default defineConfig({
     memo.plugins.delete('friendly-error');
     memo.plugins.delete('copy');
   },
+
   styles: [
     `
     #root .__dumi-default-menu-header p {
